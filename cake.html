@@ -307,6 +307,7 @@
             isClicked = true;
 
             gsap.fromTo(
+<<<<<<< HEAD
     ".pop-image", 
     { x: 300, opacity: 0 },   // start off-screen right
     { 
@@ -345,6 +346,13 @@
         }
     } // <-- closes the "to" object
 ); // <-- closes gsap.fromTo call
+=======
+                ".pop-image", 
+                { x: 300, opacity: 0 },   // start off-screen right
+                { x: 0, opacity: 1, duration: 1.2, ease: "back.out(1.7)" }  // slide to final position
+            );
+
+>>>>>>> d1b2a5d7c973583bc18a9ea77382eb96df13e5e0
 
             // Fade out candle smoothly
             gsap.to(candle, {
@@ -383,4 +391,8 @@
         cake.addEventListener('click', startCelebration);
     </script>
 
+<<<<<<< HEAD
 </body></html>
+=======
+</body></html>
+>>>>>>> d1b2a5d7c973583bc18a9ea77382eb96df13e5e0
