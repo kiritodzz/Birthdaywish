@@ -61,17 +61,10 @@
             font-family: 'Dancing Script', cursive;
             color: white;
             text-align: center;
-<<<<<<< HEAD
             position: static;
             top: 50%;
             left: 50%;
             transform: none;
-=======
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
->>>>>>> d1b2a5d7c973583bc18a9ea77382eb96df13e5e0
             opacity: 0;
             font-weight: 700;
             text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
@@ -83,17 +76,10 @@
             font-family: 'Poppins', sans-serif;
             color: rgba(255, 255, 255, 0.9);
             text-align: center;
-<<<<<<< HEAD
             position: static;
             top: 50%;
             left: 50%;
             transform: none;
-=======
-            position: absolute;
-            top: 60%;
-            left: 50%;
-            transform: translate(-50%, -50%);
->>>>>>> d1b2a5d7c973583bc18a9ea77382eb96df13e5e0
             opacity: 0;
             font-weight: 300;
             font-size: 1.2rem;
@@ -127,14 +113,10 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-<<<<<<< HEAD
             gap: 30px; /* spacing between title & message */
             z-index: 5;
             text-align: center;
             padding: 20px;
-=======
-            z-index: 5;
->>>>>>> d1b2a5d7c973583bc18a9ea77382eb96df13e5e0
         }
 
         .celebrate-button {
@@ -295,11 +277,7 @@
     
     <div class="birthday-container">
     <h1 class="birthday-text text-6xl">Happy Birthday, Sneha</h1>
-<<<<<<< HEAD
     <p class="romantic-message">Even though time zones and distance make things difficult for us, every conversation I have with you fills my heart with joy. Here’s to your special day. I hope you have a wonderful celebration. Next time, I hope we can celebrate it together.</p>
-=======
-    <p class="romantic-message">Every moment with you is a celebration, but today is especially magical. Here's to another year of love, laughter, and countless beautiful memories together.</p>
->>>>>>> d1b2a5d7c973583bc18a9ea77382eb96df13e5e0
         <button class="celebrate-button" id="celebrateBtn" style="translate: none; rotate: none; scale: none; transform: translate(-50%, 0%) translate(-0.047px, 0px); opacity: 1;">Click Here to Celebrate</button>
         <button class="next-page-button" id="nextPageBtn" style="opacity: 0.9927;">Click Here for your Cake</button>
     </div>
@@ -940,7 +918,6 @@
         ease: "elastic.out(1, 0.3)"
     });
 
-<<<<<<< HEAD
     gsap.fromTo('.romantic-message', {
     opacity: 0, y:30 }, {
         opacity: 1, y:0,
@@ -948,13 +925,6 @@
     duration: 1.2,
     ease: "power2.out"
     //y: -10
-=======
-    gsap.to('.romantic-message', {
-    opacity: 1,
-    delay: text.length * 0.1 + 0.5, // no need for extra 3 because already inside timeout
-    duration: 1.5,
-    y: -10
->>>>>>> d1b2a5d7c973583bc18a9ea77382eb96df13e5e0
 });
                 
                 celebrateBtn.addEventListener('click', () => {
